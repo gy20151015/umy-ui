@@ -162,7 +162,7 @@
                 this.scrollTop = scrollTop
             },
             selectable ({row}) {
-                return row.id !== 2
+                return row.id
             }
         }
     }
